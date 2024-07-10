@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <meta name="viewport" content="with=device-width, initial scale=1.0">
+        <title>ABOUT ME</title>
+        <link rel="icon" type="image/x-icon" href="images/me.png">
+             <link rel="stylesheet" href="style.css">
+             <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/e42894ae57.js" crossorigin="anonymous"></script>
+    </head>
+
+<hr>
+<body>
+    
+<font-family: Arial>
+
+    <section class="bg">
+        
+        <nav>
+            <a href="FOOTIE VCS.html">
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="FOOTIE VCS.html">HOME</a></li>
+                    <li><a href="PLAYERS LIST.html">PLAYERS</a></li>
+                    <li><a href="ABOUT ME (2).html">ABOUT ME</a></li>
+                    <li><a href="FUTBOL.html">FOOTBALL</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-justify" onclick="showMenu()"></i>
+        </nav>
+    
+    <div class="text">
+        <h1> ABOUT ME!</h1>
+        <p>Learn more about the author.</p>
+    </div>
+    </section>
+
+<section class="intro">
+    <h3><b>A BRIEF INTRODUCTION</b></h3>
+             <p style="text-align:center;">I'm Hailie M. I've been an avid fan of the sport as I grew up watching football matches along with my father.<br>  As my knowledge regarding this sport increased along with my interest for it as a whole, I discovered that I have grown attached to <br> multiple individuals that took part in this sport. I have grown to be extremely fond and supportive of these individuals and their <br> respective teams, so I have decided to create a web page that is fully based on these athletes. </p>
+</section>
+
+<hr>
+    <section>
+        <div class="stadium pics">
+            <h3>Some scenery pictures from the football matches I attended with my family:</h3>
+            <img src="images/old fortress view.jpg" width="400">
+            <img src="images/likas rainbow.jpg" width="400">
+        </div>
+
+    <div class="saddil-clip">
+        <h4>A live clip of Saddil scoring against KL City:</h4>
+        <video src="images/saddil goal.mp4" controls type="video/mp4" width="690"></video>
+    </div>
+</section>
+<HR>
+
+    <section class="section contact" id="contact">
+        <div class="contact-center container">
+            <div class="left">
+                <h1>Contact Me</h1>
+                <p>
+                    Send me an e-mail, or any sort of feedback. It'll be <br> very much appreciated. Thank you!
+                </p>
+                <div>
+                    <span class="icon"><i class="fa fa-user"></i></span>
+                    <span class="content">
+                        <h3>Name</h3>
+                        <span>Hailie M.</span>
+                    </span>
+                </div>
+                <div>
+                    <span class="icon"><i class="fa fa-envelope"></i></span>
+                    <span class="content">
+                        <h3>E-mail</h3>
+                        <span>allforfun793@gmail.com</span>
+                    </span>
+                </div>
+            </div>
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="asia">Asia</option>
+                    <option value="africa">Africa</option>
+                    <option value="north america">North America</option>
+                    <option value="south america">South America</option>
+                    <option value="europe">Europe</option>
+                    <option value="asia">Asia</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+
+
+<!-----JavaScript for Toggle Menu------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</html>
+</body>
